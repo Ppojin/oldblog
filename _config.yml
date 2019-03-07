@@ -19,21 +19,20 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 황효진 블로그
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  기회는 매 순간 내 방 문을 두드리고있다.
+  내가 할 일은 기회를 맞이하기 위해 노력해서 준비하는것 뿐이다.
 
 # A shorter description for the sidebar.
 tagline:               >
-  Open `_config.yml` to edit this text.
+  기회, 노력, 준비
 
 # A list of keywords for your blog.
-keywords:              []
+keywords:              [개발자 블로그]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -41,15 +40,14 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <Hyojin> <Hwang>
+  email:               <hhjin1814@gmail.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
