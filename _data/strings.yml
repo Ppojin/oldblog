@@ -66,13 +66,13 @@ from_to_separator:     '–'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y-%m-%d'
-  related_post:        '%d %b %Y-%m-%d'
+  post:                '%Y-%m-%d' #'%d %b %Y'
+  related_post:        '%Y-%m-%d' #'%d %b %Y'
   list_group_by:       '%Y'
-  list_entry:          '%d %b'
+  list_entry:          '%m-%d'
   project:             '%Y'
   projects_group_by:   '%Y'
-  resume:              '%Y-%M'
+  resume:              '%Y-%m'
 
 
 # PRO Version
