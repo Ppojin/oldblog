@@ -5,5 +5,5 @@
 redirect_to: / #https://ppojin.github.io/ #https://hydejack.com/docs/
 title: Home
 menu: true
-order: 3
+order: 7
 ---
