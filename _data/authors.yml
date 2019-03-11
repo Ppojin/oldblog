@@ -9,8 +9,15 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    황효진, 초보개발자<br>
+    황효진, 초보개발자
     C / Java / python / Django / JS / node / VBA / MySQL
+    ```javascript
+    do{
+        Opportunity(Prepared)
+        Prepared = Preparing(Effort(Life()))
+    }while(Life);
+    ```
+    언제나 노력하고 오만해지지 말자.
 
   # This photo will be used in the about section.
   picture:
