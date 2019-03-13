@@ -1,7 +1,7 @@
 ---
 layout: post
 title: python 개발환경, jupyter notebook 소개/설치/실행.
-description: jupyter notebook은 python이 인터프리터 언어인 점을 이용해서 실시간으로 코딩할 수 있는 개발환경입니다.
+description: jupyter notebook(구 ipython notebook)은 python이 인터프리터 언어인 점을 이용해서 실시간으로 코딩할 수 있는 개발환경입니다.
 ---
 
 [Jupyter Notebook github 링크](https://github.com/jupyter/notebook)
