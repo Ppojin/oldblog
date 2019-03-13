@@ -1,25 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-03-11T22:34:44+09:00</updated><id>http://localhost:4000/</id><title type="html">황효진 블로그</title><subtitle>기회는 매 순간 내 방 문을 두드리고있다. 내가 할 일은 기회를 알아채기위해 노력해서 준비하는것 뿐이다.
-</subtitle><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><entry><title type="html">jupyter notebook (ipython notebook) 설치</title><link href="http://localhost:4000/blog/2019-03-11-blog/" rel="alternate" type="text/html" title="jupyter notebook (ipython notebook) 설치" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/blog/blog</id><content type="html" xml:base="http://localhost:4000/blog/2019-03-11-blog/">&lt;p&gt;&lt;a href=&quot;https://github.com/jupyter/notebook&quot;&gt;Jupyter Notebook github 링크&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-03-13T21:56:12+09:00</updated><id>http://localhost:4000/</id><title type="html">황효진 블로그</title><subtitle>기회는 매 순간 내 방 문을 두드리고있다. 내가 할 일은 기회를 알아채기위해 노력해서 준비하는것 뿐이다.
+</subtitle><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><entry><title type="html">경험해본 python 개발환경 중 최고, jupyter notebook. 소개, 설치, 실행</title><link href="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/" rel="alternate" type="text/html" title="경험해본 python 개발환경 중 최고, jupyter notebook. 소개, 설치, 실행" /><published>2019-03-13T00:00:00+09:00</published><updated>2019-03-13T00:00:00+09:00</updated><id>http://localhost:4000/blog/blog-jupyter_01</id><content type="html" xml:base="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/">&lt;p&gt;&lt;a href=&quot;https://github.com/jupyter/notebook&quot;&gt;Jupyter Notebook github 링크&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;소개&quot;&gt;소개&lt;/h1&gt;
-&lt;p&gt;파이썬은 인터프리터 언어로써, ios의 &lt;strong&gt;터미널&lt;/strong&gt;이나 윈도우의 &lt;strong&gt;CMD&lt;/strong&gt;와 같은 커맨드 라인 창에서, 명령어를 이용해 실시간으로 작동하는 프로그래밍 언어입니다.&lt;/p&gt;
+&lt;p&gt;파이썬은 &lt;strong&gt;인터프리터 언어&lt;/strong&gt;로써, ios의 &lt;strong&gt;터미널&lt;/strong&gt;이나 윈도우의 &lt;strong&gt;CMD&lt;/strong&gt;와 같은 커맨드 라인 창에서, 명령어를 이용해 실시간으로 작동하는 프로그래밍 언어입니다.&lt;/p&gt;
 
-&lt;p&gt;하지만 이런 특성을 이용하지 않는다면 &lt;strong&gt;Python&lt;/strong&gt; 은 &lt;strong&gt;C&lt;/strong&gt; 와 같은 컴파일 언어처럼 &lt;strong&gt;IDE&lt;/strong&gt; 또는 &lt;strong&gt;텍스트 편집기&lt;/strong&gt;를 이용해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;파일명&amp;gt;.py&lt;/code&gt; 파일을 만들어서 저장하고, 일일히 커멘드 라인에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;python &amp;lt;파일명&amp;gt;.py&lt;/code&gt; 와 같은 명령어를 이용해 테스트하며 개발합니다.&lt;/p&gt;
+&lt;p&gt;하지만 이런 특성을 이용하지 않는다면 &lt;strong&gt;파이썬&lt;/strong&gt; 은 &lt;strong&gt;C&lt;/strong&gt; 와 같은 컴파일 언어처럼 &lt;strong&gt;IDE&lt;/strong&gt; 또는 &lt;strong&gt;텍스트 편집기&lt;/strong&gt;를 이용해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;파일명&amp;gt;.py&lt;/code&gt; 파일을 만들어서 저장하고, 일일히 &lt;strong&gt;커멘드 라인&lt;/strong&gt;에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;python &amp;lt;파일명&amp;gt;.py&lt;/code&gt; 와 같은 명령어를 이용해 테스트하며 개발합니다.&lt;/p&gt;
 
-&lt;p&gt;하지만 &lt;strong&gt;Python&lt;/strong&gt; 은 &lt;strong&gt;인터프리터 언어&lt;/strong&gt;이기 때문에, 이런 특성을 이용한 &lt;strong&gt;jupyter notebook&lt;/strong&gt; 을 이용해서 코딩을 한다면 에러가 없는지 테스트를 하기 위해 &lt;code class=&quot;highlighter-rouge&quot;&gt;python &amp;lt;파일명&amp;gt;.py&lt;/code&gt; 과 같은 명령어를 입력하기 위해 일일히 커맨드창을 켤 일이 없습니다.&lt;/p&gt;
+&lt;p&gt;하지만 파이썬 은 인터프리터 언어이기 때문에, 이런 특성을 이용한 &lt;strong&gt;jupyter notebook&lt;/strong&gt; 을 이용해서 코딩을 한다면 에러가 없는지 테스트를 하기 위해 &lt;code class=&quot;highlighter-rouge&quot;&gt;python &amp;lt;파일명&amp;gt;.py&lt;/code&gt; 과 같은 명령어를 입력하기 위해 일일히 커맨드창을 켤 일이 없습니다.&lt;/p&gt;
 
-&lt;blockquote&gt;
+&lt;blockquote class=&quot;figure&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ppojin/Ppojin.github.io/master/blog/_posts/img/cmd.PNG&quot; alt=&quot;img/cmd.PNG&quot; /&gt;
-python 은 인터프리터 언어이다.&lt;/p&gt;
+파이썬 은 인터프리터 언어이다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 id=&quot;설치&quot;&gt;설치&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;pip&lt;/strong&gt; 명령어를 이용해서 &lt;strong&gt;python&lt;/strong&gt; 에 &lt;strong&gt;notebook&lt;/strong&gt; 라이브러리를 설치합니다.&lt;/p&gt;</content><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><summary type="html">Jupyter Notebook github 링크</summary></entry><entry><title type="html">About 효진</title><link href="http://localhost:4000/blog/2019-03-02-blog-about/" rel="alternate" type="text/html" title="About 효진" /><published>2019-03-02T00:00:00+09:00</published><updated>2019-03-02T00:00:00+09:00</updated><id>http://localhost:4000/blog/blog-about</id><content type="html" xml:base="http://localhost:4000/blog/2019-03-02-blog-about/">&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;Opportunity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Prepared&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;Prepared&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Preparing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Effort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;p&gt;&lt;strong&gt;pip&lt;/strong&gt; 명령어를 이용해서 &lt;strong&gt;파이썬&lt;/strong&gt; 에 &lt;strong&gt;notebook&lt;/strong&gt; 라이브러리를 설치합니다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pip install notebook
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;기회는 잡을 수 있을 때 까지, 일생에 최선을 다해서 준비하는 것이다.&lt;/em&gt;&lt;/p&gt;</content><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><summary type="html">do{ Opportunity(Prepared) Prepared = Preparing(Effort(Life())) }while(Life); 기회는 잡을 수 있을 때 까지, 일생에 최선을 다해서 준비하는 것이다.</summary></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2018-06-01T00:00:00+09:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/">&lt;p&gt;Hydejack offers a few additional features to markup your markdown.
+
+&lt;p&gt;jupyter 명령어를 이용해서 notebook을 실행합니다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;cd 명령어 등을 이용해서 원하는 폴더에서 notebook을 실행할 수도 있습니다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~$ cd &amp;lt;폴더경로&amp;gt;
+&amp;lt;폴더경로&amp;gt;$ jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: 요세미티 이상의 맥os 유저의 경우 설치 후 &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jupyter notebook&lt;/code&gt; 명령어를 통해 실행할 때 &lt;code class=&quot;highlighter-rouge&quot;&gt;ImportError: cannot import name _thread&lt;/code&gt; 와 같은 오류가 발생할 수 있습니다. 그럴 경우 &lt;em&gt;dateutil&lt;/em&gt; 라이브러리를 2.2 버전으로 &lt;strong&gt;재설치&lt;/strong&gt;하는 것 으로 이 문제를 해결할 수 있습니다.&lt;/p&gt;
+
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo pip uninstall python-dateutil
+sudo pip install python-dateutil==2.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;</content><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><summary type="html">Jupyter Notebook github 링크</summary></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2018-06-01T00:00:00+09:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/">&lt;p&gt;Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s &lt;code class=&quot;highlighter-rouge&quot;&gt;{:...}&lt;/code&gt; syntax,
 so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
 
