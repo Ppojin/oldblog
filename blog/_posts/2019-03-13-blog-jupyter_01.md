@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 경험해본 python 개발환경 중 최고, jupyter notebook. 소개, 설치, 실행
+title: python 개발환경, jupyter notebook 소개/설치/실행.
 description: jupyter notebook은 python이 인터프리터 언어인 점을 이용해서 실시간으로 코딩할 수 있는 개발환경입니다.
 ---
 
@@ -13,7 +13,7 @@ description: jupyter notebook은 python이 인터프리터 언어인 점을 이�
 
 하지만 파이썬 은 인터프리터 언어이기 때문에, 이런 특성을 이용한 **jupyter notebook** 을 이용해서 코딩을 한다면 에러가 없는지 테스트를 하기 위해 `python <파일명>.py` 과 같은 명령어를 입력하기 위해 일일히 커맨드창을 켤 일이 없습니다.
 
-> ![img/cmd.PNG](https://raw.githubusercontent.com/Ppojin/Ppojin.github.io/master/blog/_posts/img/cmd.PNG)
+![img/cmd.PNG](https://raw.githubusercontent.com/Ppojin/Ppojin.github.io/master/blog/_posts/img/cmd.PNG)
 파이썬 은 인터프리터 언어이다.
 {:.figure}
 
@@ -33,6 +33,18 @@ cd 명령어 등을 이용해서 원하는 폴더에서 notebook을 실행할 �
 ~$ cd <폴더경로>
 <폴더경로>$ jupyter notebook
 ```
+
+![](https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/notebook-첫_실행.PNG?raw=true)
+첫 실행화면. / jupyter notebook을 원하는 폴더에서 실행할 수 있다.
+{:.figure}
+
+위 화면에서 `[new > python2.7] OR [new > python3]` 버튼을 클릭해서 `Untitle1.ipynv` 파일을 생성과 동시에 실행할 수 있습니다. 이렇게 **jupyter notebook** 개발환경을 통해 새로 만든 파일에 들어가면 실시간으로 코딩과 실행을 동시해 할 수 있습니다.
+
+| 그림1         | 그림2         |
+|:-------------|:-------------|
+| ![img/cmd.PNG](https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/cmd.PNG?raw=true =100x100) | ![](https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/notebook-작동예시.PNG?raw=true =100x100) |
+
+그림1, 2 와 같이 계속해서 코드를 실행시키고 싶을 때 마다. 다시 작성해야하는 번거로움이 있는 커맨드 라인 코딩과 달리 **jupyter notebook** 에서는 이전에 사용했던 코드를 손쉽게 다시 사용할 수 있다.
 
 
 > **NOTE**: 요세미티 이상의 맥os 유저의 경우 설치 후 `$ jupyter notebook` 명령어를 통해 실행할 때 `ImportError: cannot import name _thread` 와 같은 오류가 발생할 수 있습니다. 그럴 경우 *dateutil* 라이브러리를 2.2 버전으로 **재설치**하는 것 으로 이 문제를 해결할 수 있습니다.

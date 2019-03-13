@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-03-13T21:56:12+09:00</updated><id>http://localhost:4000/</id><title type="html">황효진 블로그</title><subtitle>기회는 매 순간 내 방 문을 두드리고있다. 내가 할 일은 기회를 알아채기위해 노력해서 준비하는것 뿐이다.
-</subtitle><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><entry><title type="html">경험해본 python 개발환경 중 최고, jupyter notebook. 소개, 설치, 실행</title><link href="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/" rel="alternate" type="text/html" title="경험해본 python 개발환경 중 최고, jupyter notebook. 소개, 설치, 실행" /><published>2019-03-13T00:00:00+09:00</published><updated>2019-03-13T00:00:00+09:00</updated><id>http://localhost:4000/blog/blog-jupyter_01</id><content type="html" xml:base="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/">&lt;p&gt;&lt;a href=&quot;https://github.com/jupyter/notebook&quot;&gt;Jupyter Notebook github 링크&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2019-03-13T22:17:02+09:00</updated><id>http://localhost:4000/</id><title type="html">황효진 블로그</title><subtitle>기회는 매 순간 내 방 문을 두드리고있다. 내가 할 일은 기회를 알아채기위해 노력해서 준비하는것 뿐이다.
+</subtitle><author><name>&lt;Hyojin&gt; &lt;Hwang&gt;</name><email>&lt;hhjin1814@gmail.com&gt;</email></author><entry><title type="html">python 개발환경, jupyter notebook 소개/설치/실행.</title><link href="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/" rel="alternate" type="text/html" title="python 개발환경, jupyter notebook 소개/설치/실행." /><published>2019-03-13T00:00:00+09:00</published><updated>2019-03-13T00:00:00+09:00</updated><id>http://localhost:4000/blog/blog-jupyter_01</id><content type="html" xml:base="http://localhost:4000/blog/2019-03-13-blog-jupyter_01/">&lt;p&gt;&lt;a href=&quot;https://github.com/jupyter/notebook&quot;&gt;Jupyter Notebook github 링크&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;소개&quot;&gt;소개&lt;/h1&gt;
 &lt;p&gt;파이썬은 &lt;strong&gt;인터프리터 언어&lt;/strong&gt;로써, ios의 &lt;strong&gt;터미널&lt;/strong&gt;이나 윈도우의 &lt;strong&gt;CMD&lt;/strong&gt;와 같은 커맨드 라인 창에서, 명령어를 이용해 실시간으로 작동하는 프로그래밍 언어입니다.&lt;/p&gt;
@@ -8,10 +8,8 @@
 
 &lt;p&gt;하지만 파이썬 은 인터프리터 언어이기 때문에, 이런 특성을 이용한 &lt;strong&gt;jupyter notebook&lt;/strong&gt; 을 이용해서 코딩을 한다면 에러가 없는지 테스트를 하기 위해 &lt;code class=&quot;highlighter-rouge&quot;&gt;python &amp;lt;파일명&amp;gt;.py&lt;/code&gt; 과 같은 명령어를 입력하기 위해 일일히 커맨드창을 켤 일이 없습니다.&lt;/p&gt;
 
-&lt;blockquote class=&quot;figure&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ppojin/Ppojin.github.io/master/blog/_posts/img/cmd.PNG&quot; alt=&quot;img/cmd.PNG&quot; /&gt;
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Ppojin/Ppojin.github.io/master/blog/_posts/img/cmd.PNG&quot; alt=&quot;img/cmd.PNG&quot; /&gt;
 파이썬 은 인터프리터 언어이다.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;h1 id=&quot;설치&quot;&gt;설치&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;pip&lt;/strong&gt; 명령어를 이용해서 &lt;strong&gt;파이썬&lt;/strong&gt; 에 &lt;strong&gt;notebook&lt;/strong&gt; 라이브러리를 설치합니다.&lt;/p&gt;
@@ -26,6 +24,28 @@
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~$ cd &amp;lt;폴더경로&amp;gt;
 &amp;lt;폴더경로&amp;gt;$ jupyter notebook
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;figure&quot;&gt;&lt;img src=&quot;https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/notebook-첫_실행.PNG?raw=true&quot; alt=&quot;&quot; /&gt;
+첫 실행화면. / jupyter notebook을 원하는 폴더에서 실행할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;위 화면에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;[new &amp;gt; python2.7] OR [new &amp;gt; python3]&lt;/code&gt; 버튼을 클릭해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;Untitle1.ipynv&lt;/code&gt; 파일을 생성과 동시에 실행할 수 있습니다. 이렇게 &lt;strong&gt;jupyter notebook&lt;/strong&gt; 개발환경을 통해 새로 만든 파일에 들어가면 실시간으로 코딩과 실행을 동시해 할 수 있습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;그림1&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;그림2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/cmd.PNG?raw=true =100x100&quot; alt=&quot;img/cmd.PNG&quot; /&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;img src=&quot;https://github.com/Ppojin/Ppojin.github.io/blob/master/blog/_posts/img/notebook-작동예시.PNG?raw=true =100x100&quot; alt=&quot;&quot; /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;그림1, 2 와 같이 계속해서 코드를 실행시키고 싶을 때 마다. 다시 작성해야하는 번거로움이 있는 커맨드 라인 코딩과 달리 &lt;strong&gt;jupyter notebook&lt;/strong&gt; 에서는 이전에 사용했던 코드를 손쉽게 다시 사용할 수 있다.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p class=&quot;message&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: 요세미티 이상의 맥os 유저의 경우 설치 후 &lt;code class=&quot;highlighter-rouge&quot;&gt;$ jupyter notebook&lt;/code&gt; 명령어를 통해 실행할 때 &lt;code class=&quot;highlighter-rouge&quot;&gt;ImportError: cannot import name _thread&lt;/code&gt; 와 같은 오류가 발생할 수 있습니다. 그럴 경우 &lt;em&gt;dateutil&lt;/em&gt; 라이브러리를 2.2 버전으로 &lt;strong&gt;재설치&lt;/strong&gt;하는 것 으로 이 문제를 해결할 수 있습니다.&lt;/p&gt;
