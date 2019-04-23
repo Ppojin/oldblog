@@ -1,8 +1,26 @@
 ---
 layout: post
-title: python 개발환경, jupyter notebook 소개/설치/실행.
-description: jupyter notebook은 python이 인터프리터 언어인 점을 이용해서 실시간으로 코딩할 수 있는 개발환경입니다.
+title: DB 및 SQL 프로시저 제작
+description: 리눅스의 알림톡 클라이언트가 읽을 DB와 테이블 제작, 그리고 그 테이블에 입력할 데이터를 정제하는 프로시저 제작
 ---
+
+# 수행업무
+## DB 제작
+리눅스의 알림톡 클라이언트가 읽을 DB 제작
+
+## 프로시저 제작
+알림톡 발송용 Low data 정제 프로시저 제작
+### 'create_delivery_ararm_tmp' 프로시저 제작
+물질입고의 일정관리 DB를 이용해서 날짜를 기준으로 금일 입고된 시약을 기준으로 
+![1-1]({{"/assets/img/portfolio/1-1.png"| relative_url}})
+![1-2]({{"/assets/img/portfolio/1-2.png"| relative_url}})
+![1-3]({{"/assets/img/portfolio/1-3.png"| relative_url}})
+### 'send_confirm' 프로시저 제작
+
+![2-1]({{"/assets/img/portfolio/2-1.png"| relative_url}})
+![2-2]({{"/assets/img/portfolio/2-2.png"| relative_url}})
+### 'send_msg' 프로시저 제작
+
 
 [Jupyter Notebook github 링크](https://github.com/jupyter/notebook)
 
