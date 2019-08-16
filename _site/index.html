@@ -295,16 +295,25 @@
 <div class="layout--articles">
 <div class="article-list items items--divided">
 <article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2019/08/16/0.html"><h2 itemprop="headline" class="item__header">Calender 스트럭처 이용 Date 변수 정각으로 초기화</h2></a></header>
+          <header><a href="/2019/08/16/swift.html"><h2 itemprop="headline" class="item__header">Date() 변수 정각으로 초기화</h2></a></header>
           <div class="item__description">
-<div class="article__content" itemprop="description articleBody">Date()
+<div class="article__content" itemprop="description articleBody">`Date()` 함수의 timeIntervalSinceNow 에 원하는 시간을 입력하면 입력한 시간만큼 현재 시간 이후의 시간을 변수에 입력할 수 있다.
+  
 
+
+m+1분 s초
+resetTime = Date(timeIntervalSinceNow: TimeInterval(60))
+
+’ m+1분 s초’ 로 초기화 할 수 있다.
+
+위 방법은 다음 분의 현재 초가 저장된다
+아래 방법을 이용하면 지저분한 다음 분의 현재 초로 저장 되는 것 을 0초로 저장 할 수 있다.
+
+m+1분 0초
 resetTime = Date(
     timeIntervalSinceNow: TimeInterval(
-        60 - Calendar.current.dateComponents([.second], from: Date()).second!
-    )
-)</div>
-<p><a href="/2019/08/16/0.html">Read more</a></p>
+        60 - Calenda...</div>
+<p><a href="/2019/08/16/swift.html">Read more</a></p>
 </div>
 <div class="article__info clearfix">
 <ul class="left-col menu"><li>
@@ -319,7 +328,7 @@ resetTime = Date(
     <meta itemprop="keywords" content="Swift">
 </div>
       </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2019/03/19/0.html"><h2 itemprop="headline" class="item__header">구글 서버상태 대시보드</h2></a></header>
+          <header><a href="/2019/03/19/gcp.html"><h2 itemprop="headline" class="item__header">구글 서버상태 대시보드</h2></a></header>
           <div class="item__description">
 <div class="article__content" itemprop="description articleBody">G Suite 상태 대시보드 페이지
 
@@ -331,7 +340,7 @@ resetTime = Date(
 
 
 구...</div>
-<p><a href="/2019/03/19/0.html">Read more</a></p>
+<p><a href="/2019/03/19/gcp.html">Read more</a></p>
 </div>
 <div class="article__info clearfix">
 <ul class="left-col menu"><li>
@@ -346,7 +355,7 @@ resetTime = Date(
     <meta itemprop="keywords" content="GCP">
 </div>
       </article><article class="item" itemscope itemtype="http://schema.org/BlogPosting"><div class="item__content">
-          <header><a href="/2019/03/13/0.html"><h2 itemprop="headline" class="item__header">python 개발환경, jupyter notebook 소개/설치/실행.</h2></a></header>
+          <header><a href="/2019/03/13/python.html"><h2 itemprop="headline" class="item__header">python 개발환경, jupyter notebook 소개/설치/실행.</h2></a></header>
           <div class="item__description">
 <div class="article__content" itemprop="description articleBody">Jupyter Notebook github 링크
 
@@ -356,7 +365,7 @@ resetTime = Date(
 하지만 이런 특성을 이용하지 않는다면 파이썬 은 C 와 같은 컴파일 언어처럼 IDE 또는 텍스트 편집기를 이용해서 &lt;파일명&gt;.py 파일을 만들어서 저장하고, 일일히 커멘드 라인에서 python &lt;파일명&gt;.py 와 같은 명령어를 이용해 테스트하며 개발합니다.
 
 하지만 파이썬은 인터프리터 언어이기 때문에, 이런 특성을 이용한 jupyter notebook 을 이용해서 코딩을 한다면 에러가 ...</div>
-<p><a href="/2019/03/13/0.html">Read more</a></p>
+<p><a href="/2019/03/13/python.html">Read more</a></p>
 </div>
 <div class="article__info clearfix">
 <ul class="left-col menu"><li>
