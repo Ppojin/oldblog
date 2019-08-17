@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="kr"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="kr" /><updated>2019-08-16T17:13:02+09:00</updated><id>http://0.0.0.0:4000/</id><title type="html">황효진 블로그</title><subtitle>^^7
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="kr"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="kr" /><updated>2019-08-17T13:56:45+09:00</updated><id>http://0.0.0.0:4000/</id><title type="html">황효진 블로그</title><subtitle>^^7
 </subtitle><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><entry><title type="html">Date() 변수 정각으로 초기화</title><link href="http://0.0.0.0:4000/2019/08/16/swift.html" rel="alternate" type="text/html" title="Date() 변수 정각으로 초기화" /><published>2019-08-16T00:00:00+09:00</published><updated>2019-08-16T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/08/16/swift</id><content type="html" xml:base="http://0.0.0.0:4000/2019/08/16/swift.html">&lt;div class=&quot;hero&quot; style=&quot;background-color: #ccc;&quot;&gt;
   &lt;div class=&quot;hero__content&quot;&gt;
     &lt;!-- &lt;h3&gt;Date() 변수 정각으로 초기화&lt;/h3&gt; --&gt;
@@ -11,7 +11,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p class=&quot;warning&quot;&gt;’ m+1분 s초’ 로 초기화 할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;위 방법은 다음 분의 현재 초가 저장된다
+&lt;p&gt;위 방법은 다음 분의 현재 초가 저장된다.
 아래 방법을 이용하면 지저분한 다음 분의 현재 초로 저장 되는 것 을 0초로 저장 할 수 있다.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;success highlighter-rouge&quot;&gt;m+1분 0초&lt;/code&gt;&lt;/p&gt;
@@ -21,7 +21,7 @@
     &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;success&quot;&gt;’ m+1분 0초 ‘ 로 초기화 할 수 있다.&lt;/p&gt;</content><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><category term="Swift" /><summary type="html">`Date()` 함수의 timeIntervalSinceNow 에 원하는 시간을 입력하면 입력한 시간만큼 현재 시간 이후의 시간을 변수에 입력할 수 있다. m+1분 s초 resetTime = Date(timeIntervalSinceNow: TimeInterval(60)) ’ m+1분 s초’ 로 초기화 할 수 있다. 위 방법은 다음 분의 현재 초가 저장된다 아래 방법을 이용하면 지저분한 다음 분의 현재 초로 저장 되는 것 을 0초로 저장 할 수 있다. m+1분 0초 resetTime = Date( timeIntervalSinceNow: TimeInterval( 60 - Calendar.current.dateComponents([.second], from: Date()).second! ) ) ’ m+1분 0초 ‘ 로 초기화 할 수 있다.</summary></entry><entry><title type="html">구글 서버상태 대시보드</title><link href="http://0.0.0.0:4000/2019/03/19/gcp.html" rel="alternate" type="text/html" title="구글 서버상태 대시보드" /><published>2019-03-19T00:00:00+09:00</published><updated>2019-03-19T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/03/19/gcp</id><content type="html" xml:base="http://0.0.0.0:4000/2019/03/19/gcp.html">&lt;p&gt;&lt;a href=&quot;https://www.google.com/appsstatus#hl=ko&quot;&gt;G Suite 상태 대시보드 페이지&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;success&quot;&gt;’ m+1분 0초 ‘ 로 초기화 할 수 있다.&lt;/p&gt;</content><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><category term="Swift" /><summary type="html">`Date()` 함수의 timeIntervalSinceNow 에 원하는 시간을 입력하면 입력한 시간만큼 현재 시간 이후의 시간을 변수에 입력할 수 있다. m+1분 s초 resetTime = Date(timeIntervalSinceNow: TimeInterval(60)) ’ m+1분 s초’ 로 초기화 할 수 있다. 위 방법은 다음 분의 현재 초가 저장된다. 아래 방법을 이용하면 지저분한 다음 분의 현재 초로 저장 되는 것 을 0초로 저장 할 수 있다. m+1분 0초 resetTime = Date( timeIntervalSinceNow: TimeInterval( 60 - Calendar.current.dateComponents([.second], from: Date()).second! ) ) ’ m+1분 0초 ‘ 로 초기화 할 수 있다.</summary></entry><entry><title type="html">구글 서버상태 대시보드</title><link href="http://0.0.0.0:4000/2019/03/19/gcp.html" rel="alternate" type="text/html" title="구글 서버상태 대시보드" /><published>2019-03-19T00:00:00+09:00</published><updated>2019-03-19T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/03/19/gcp</id><content type="html" xml:base="http://0.0.0.0:4000/2019/03/19/gcp.html">&lt;p&gt;&lt;a href=&quot;https://www.google.com/appsstatus#hl=ko&quot;&gt;G Suite 상태 대시보드 페이지&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;개요&quot;&gt;개요&lt;/h1&gt;
 
