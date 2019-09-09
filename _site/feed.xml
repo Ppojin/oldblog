@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="kr"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="kr" /><updated>2019-08-17T13:56:45+09:00</updated><id>http://0.0.0.0:4000/</id><title type="html">황효진 블로그</title><subtitle>^^7
-</subtitle><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><entry><title type="html">Date() 변수 정각으로 초기화</title><link href="http://0.0.0.0:4000/2019/08/16/swift.html" rel="alternate" type="text/html" title="Date() 변수 정각으로 초기화" /><published>2019-08-16T00:00:00+09:00</published><updated>2019-08-16T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/08/16/swift</id><content type="html" xml:base="http://0.0.0.0:4000/2019/08/16/swift.html">&lt;div class=&quot;hero&quot; style=&quot;background-color: #ccc;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="kr"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="kr" /><updated>2019-09-09T16:17:30+09:00</updated><id>http://0.0.0.0:4000/</id><title type="html">황효진 블로그</title><subtitle>^^7
+</subtitle><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><entry><title type="html">python virtualenv</title><link href="http://0.0.0.0:4000/2019/09/09/docker_flask.html" rel="alternate" type="text/html" title="python virtualenv" /><published>2019-09-09T00:00:00+09:00</published><updated>2019-09-09T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/09/09/docker_flask</id><content type="html" xml:base="http://0.0.0.0:4000/2019/09/09/docker_flask.html">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;virtualenv 는 파이썬 라이브러리를 독립적으로 만들어 줄 수 있는 라이브러리이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;설치&quot;&gt;설치&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pip install virtualenv
+Collecting virtualenv
+  Using cached https://files.pythonhosted.org/packages/8b/12/8d4f45b8962b03ac9efefe5ed5053f6b29334d83e438b4fe379d21c0cb8e/virtualenv-16.7.5-py2.py3-none-any.whl
+Installing collected packages: virtualenv
+Successfully installed virtualenv-16.7.5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;virtualenv-환경-설치&quot;&gt;virtualenv 환경 설치&lt;/h2&gt;
+&lt;p&gt;터미널에 &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualenv env&lt;/code&gt; 를 입력하면 현재 폴더에 env폴더가 생성된다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ virtualenv env
+Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7'
+New python executable in /Users/hwanghyojin/Documents/flask/makeservay/env/bin/python3
+Also creating executable in /Users/hwanghyojin/Documents/flask/makeservay/env/bin/python
+Installing setuptools, pip, wheel...
+done.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;virtualenv-환경-실행&quot;&gt;virtualenv 환경 실행&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;source env/bin/activate&lt;/code&gt; 명령어를 실행하면 virtualenv 가상 환경에서 작업을 진행할 수 있다.
+bash 뒤에 (env)가 붙으면 가상 환경이 동작중이라는 표시이다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ source env/bin/activate
+(env) $
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;virtualenv-환경-종료&quot;&gt;virtualenv 환경 종료&lt;/h2&gt;
+&lt;p&gt;virtualenv 가상 환경이 실행 중일 때 &lt;code class=&quot;highlighter-rouge&quot;&gt;deactivate&lt;/code&gt; 명령어를 입력하면 가상 환경에서 나와 local 환경에서 작업할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(env) $ deactivate
+$
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>황효진</name><email>hhjin1814@gmail.com</email></author><category term="python" /><summary type="html">개요 virtualenv 는 파이썬 라이브러리를 독립적으로 만들어 줄 수 있는 라이브러리이다. 설치 $ pip install virtualenv Collecting virtualenv Using cached https://files.pythonhosted.org/packages/8b/12/8d4f45b8962b03ac9efefe5ed5053f6b29334d83e438b4fe379d21c0cb8e/virtualenv-16.7.5-py2.py3-none-any.whl Installing collected packages: virtualenv Successfully installed virtualenv-16.7.5 virtualenv 환경 설치 터미널에 virtualenv env 를 입력하면 현재 폴더에 env폴더가 생성된다. $ virtualenv env Using base prefix '/Library/Frameworks/Python.framework/Versions/3.7' New python executable in /Users/hwanghyojin/Documents/flask/makeservay/env/bin/python3 Also creating executable in /Users/hwanghyojin/Documents/flask/makeservay/env/bin/python Installing setuptools, pip, wheel... done. virtualenv 환경 실행 source env/bin/activate 명령어를 실행하면 virtualenv 가상 환경에서 작업을 진행할 수 있다. bash 뒤에 (env)가 붙으면 가상 환경이 동작중이라는 표시이다. $ source env/bin/activate (env) $ virtualenv 환경 종료 virtualenv 가상 환경이 실행 중일 때 deactivate 명령어를 입력하면 가상 환경에서 나와 local 환경에서 작업할 수 있다. (env) $ deactivate $</summary></entry><entry><title type="html">Date() 변수 정각으로 초기화</title><link href="http://0.0.0.0:4000/2019/08/16/swift.html" rel="alternate" type="text/html" title="Date() 변수 정각으로 초기화" /><published>2019-08-16T00:00:00+09:00</published><updated>2019-08-16T00:00:00+09:00</updated><id>http://0.0.0.0:4000/2019/08/16/swift</id><content type="html" xml:base="http://0.0.0.0:4000/2019/08/16/swift.html">&lt;div class=&quot;hero&quot; style=&quot;background-color: #ccc;&quot;&gt;
   &lt;div class=&quot;hero__content&quot;&gt;
     &lt;!-- &lt;h3&gt;Date() 변수 정각으로 초기화&lt;/h3&gt; --&gt;
     &lt;p&gt;`Date()` 함수의 timeIntervalSinceNow 에 원하는 시간을 입력하면 입력한 시간만큼 현재 시간 이후의 시간을 변수에 입력할 수 있다.&lt;/p&gt;
